@@ -7,7 +7,7 @@
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/XtomiSN/MusicAndVideoPlayer",
+    "repository": "https://github.com/AzeMusic/userbot",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
@@ -15,7 +15,8 @@
         },
         "API_ID": {
             "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps",
-            "required": true
+            "required": false,
+            "value": "18052289"
         },
         "HNDLR": {
             "description": "ini akan digunakan sebagai prefix di semua perintah",
@@ -24,11 +25,13 @@
         },
         "API_HASH": {
             "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps",
-            "required": true
+            "required": false,
+            "value": "552525f45a3066fee54ca7852235c19c"
         },
         "SUDO_USERS": {
             "description": "Daftar User ID pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
-            "required": true
+            "required": false,
+            "value": "5044441800"
         }
     },
     "addons": [],
